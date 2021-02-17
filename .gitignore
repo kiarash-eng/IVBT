@@ -1,0 +1,6 @@
+*.csv
+bin
+tmp
+*.heprep
+*._*
+*.code-workspace

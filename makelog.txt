@@ -1,0 +1,1483 @@
+Making dependency for file TG60.cc ...
+Making dependency for file src/DetectorMessenger.cc ...
+Making dependency for file src/PhysicsList.cc ...
+Making dependency for file src/GuidantGallileo.cc ...
+Making dependency for file src/TrackLengthEstimator.cc ...
+Making dependency for file src/SphericalParameterisation.cc ...
+Making dependency for file src/SourceMaterial.cc ...
+Making dependency for file src/FlexiSource.cc ...
+Making dependency for file src/RadialParameterisation.cc ...
+Making dependency for file src/Run.cc ...
+Making dependency for file src/PSDoseDeposit.cc ...
+Making dependency for file src/SrYexperimental.cc ...
+Making dependency for file src/EventAction.cc ...
+Making dependency for file src/RunAction.cc ...
+Making dependency for file src/ParallelWorldConstructionScoring.cc ...
+Making dependency for file src/MicroSelectronV2.cc ...
+Making dependency for file src/TrackLengthMessenger.cc ...
+Making dependency for file src/TG60Parameterisation.cc ...
+Making dependency for file src/PrimaryGeneratorAction.cc ...
+Making dependency for file src/DetectorConstruction.cc ...
+Making dependency for file src/PositionList.cc ...
+Making dependency for file src/PSDoseAirDeposit.cc ...
+Making dependency for file src/StackingAction.cc ...
+Making dependency for file src/NovosteBetaCath.cc ...
+Making dependency for file src/RadialParallelWorldConstructionScoring.cc ...
+Making dependency for file src/SourceModel.cc ...
+Compiling SourceModel.cc ...
+Compiling RadialParallelWorldConstructionScoring.cc ...
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:99:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Tubs &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/RadialParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+src/RadialParallelWorldConstructionScoring.cc:36:131: warning: unused parameter ‘det’ [-Wunused-parameter]
+ RadialParallelWorldConstructionScoring::RadialParallelWorldConstructionScoring(G4String& parallelWorldName, DetectorConstruction *det, G4int voxels)
+                                                                                                                                   ^
+src/RadialParallelWorldConstructionScoring.cc: In member function ‘virtual void RadialParallelWorldConstructionScoring::Construct()’:
+src/RadialParallelWorldConstructionScoring.cc:68:15: warning: unused variable ‘air’ [-Wunused-variable]
+   G4Material* air = man->FindOrBuildMaterial("G4_AIR");
+               ^
+src/RadialParallelWorldConstructionScoring.cc:69:15: warning: unused variable ‘water’ [-Wunused-variable]
+   G4Material* water = man->FindOrBuildMaterial("G4_WATER");
+               ^
+src/RadialParallelWorldConstructionScoring.cc:70:15: warning: unused variable ‘pb’ [-Wunused-variable]
+   G4Material* pb = man->FindOrBuildMaterial("G4_Pb");
+               ^
+src/RadialParallelWorldConstructionScoring.cc:112:22: warning: unused variable ‘rhoscoring_shell’ [-Wunused-variable]
+   G4PVParameterised* rhoscoring_shell = new G4PVParameterised("RadialScoring shell", RadialScoring_log, worldLogicalS, kZAxis, nrhovoxels, rhoparam);
+                      ^
+Compiling NovosteBetaCath.cc ...
+src/NovosteBetaCath.cc: In member function ‘virtual void NovosteBetaCath::CreateSource(G4VPhysicalVolume*)’:
+src/NovosteBetaCath.cc:102:15: warning: unused variable ‘Aluminum’ [-Wunused-variable]
+   G4Material* Aluminum = man->FindOrBuildMaterial("G4_Al");
+               ^
+src/NovosteBetaCath.cc:103:15: warning: unused variable ‘Platinum’ [-Wunused-variable]
+   G4Material* Platinum = man->FindOrBuildMaterial("G4_Pt");
+               ^
+Compiling StackingAction.cc ...
+Compiling PSDoseAirDeposit.cc ...
+Compiling PositionList.cc ...
+Compiling DetectorConstruction.cc ...
+src/DetectorConstruction.cc:303:3: warning: "/*" within comment [-Wcomment]
+   /*  TG 60 Param 
+   ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:99:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Tubs &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/DetectorConstruction.cc:40:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/DetectorConstruction.cc:41:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4ParameterisedNavigation.hh:52:0,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4Navigator.hh:65,
+                 from /home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4TransportationManager.hh:47,
+                 from include/MicroSelectronV2.hh:36,
+                 from src/DetectorConstruction.cc:18:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/DetectorConstruction.cc:42:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+src/DetectorConstruction.cc: In member function ‘void DetectorConstruction::ConstructWorld()’:
+src/DetectorConstruction.cc:186:11: warning: unused variable ‘MiniWorld’ [-Wunused-variable]
+ G4Sphere* MiniWorld = new G4Sphere("World", 0.*CLHEP::cm, 10.*CLHEP::cm, 0.*CLHEP::deg, 360.*CLHEP::deg, 0.*CLHEP::deg, 180.*CLHEP::deg);
+           ^
+Compiling PrimaryGeneratorAction.cc ...
+Compiling TG60Parameterisation.cc ...
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/TG60Parameterisation.hh:1:0,
+                 from src/TG60Parameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+src/TG60Parameterisation.cc: In member function ‘virtual void TG60Parameterisation::ComputeTransformation(G4int, G4VPhysicalVolume*) const’:
+src/TG60Parameterisation.cc:37:8: warning: declaration of ‘zNumber’ shadows a member of ‘TG60Parameterisation’ [-Wshadow]
+  G4int zNumber = copyNo - (radno-1)*(incrementz);
+        ^
+In file included from src/TG60Parameterisation.cc:1:0:
+include/TG60Parameterisation.hh:30:31: note: shadowed declaration is here
+   mutable G4int radiusNumber, zNumber;
+                               ^
+Compiling TrackLengthMessenger.cc ...
+src/TrackLengthMessenger.cc:26:71: warning: unused parameter ‘newValue’ [-Wunused-parameter]
+ void TrackLengthMessenger::SetNewValue(G4UIcommand* command, G4String newValue) {
+                                                                       ^
+Compiling MicroSelectronV2.cc ...
+Compiling ParallelWorldConstructionScoring.cc ...
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:99:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Tubs &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:25:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:26:0:
+include/TG60Parameterisation.hh:19:16: warning:   by ‘virtual void TG60Parameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from src/ParallelWorldConstructionScoring.cc:14:0:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/ParallelWorldConstructionScoring.cc:27:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+src/ParallelWorldConstructionScoring.cc:36:119: warning: unused parameter ‘det’ [-Wunused-parameter]
+ ParallelWorldConstructionScoring::ParallelWorldConstructionScoring(G4String& parallelWorldName, DetectorConstruction *det, G4int voxels)
+                                                                                                                       ^
+src/ParallelWorldConstructionScoring.cc: In member function ‘virtual void ParallelWorldConstructionScoring::Construct()’:
+src/ParallelWorldConstructionScoring.cc:68:15: warning: unused variable ‘air’ [-Wunused-variable]
+   G4Material* air = man->FindOrBuildMaterial("G4_AIR");
+               ^
+src/ParallelWorldConstructionScoring.cc:69:15: warning: unused variable ‘water’ [-Wunused-variable]
+   G4Material* water = man->FindOrBuildMaterial("G4_WATER");
+               ^
+src/ParallelWorldConstructionScoring.cc:70:15: warning: unused variable ‘pb’ [-Wunused-variable]
+   G4Material* pb = man->FindOrBuildMaterial("G4_Pb");
+               ^
+Compiling RunAction.cc ...
+Compiling EventAction.cc ...
+Compiling SrYexperimental.cc ...
+src/SrYexperimental.cc:149:3: warning: "/*" within comment [-Wcomment]
+   /*G4Sphere(const G4String& pName,
+   ^
+src/SrYexperimental.cc: In member function ‘virtual void Sryexperimental::CreateSource(G4VPhysicalVolume*)’:
+src/SrYexperimental.cc:107:15: warning: unused variable ‘Aluminum’ [-Wunused-variable]
+   G4Material* Aluminum = man->FindOrBuildMaterial("G4_Al");
+               ^
+src/SrYexperimental.cc:108:15: warning: unused variable ‘Platinum’ [-Wunused-variable]
+   G4Material* Platinum = man->FindOrBuildMaterial("G4_Pt");
+               ^
+src/SrYexperimental.cc:182:20: warning: unused variable ‘CatheterEnd_log’ [-Wunused-variable]
+   G4LogicalVolume* CatheterEnd_log = new G4LogicalVolume(CatheterEnd,PVC,"CatheterEnd_log",0,0,0);
+                    ^
+Compiling PSDoseDeposit.cc ...
+Compiling Run.cc ...
+Compiling RadialParameterisation.cc ...
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:115:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Sphere &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+In file included from include/RadialParameterisation.hh:1:0,
+                 from src/RadialParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/RadialParameterisation.cc:1:0:
+include/RadialParameterisation.hh:19:16: warning:   by ‘virtual void RadialParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Tubs& cylinder, const G4int copyNo, const G4VPhysicalVolume*) const;
+                ^
+include/RadialParameterisation.hh: In constructor ‘RadialParameterisation::RadialParameterisation(G4double, G4double, G4double, G4double, G4double)’:
+include/RadialParameterisation.hh:33:12: warning: ‘RadialParameterisation::incrementradius’ will be initialized after [-Wreorder]
+   G4double incrementradius;
+            ^
+include/RadialParameterisation.hh:31:24: warning:   ‘G4double RadialParameterisation::deltaangle’ [-Wreorder]
+   G4double stepradius, deltaangle;
+                        ^
+src/RadialParameterisation.cc:7:1: warning:   when initialized here [-Wreorder]
+ RadialParameterisation::RadialParameterisation(const G4double startRadius, const G4double stepRadius, const G4double incrementRadius, const G4double deltaAngle, const G4double zhalfLength)
+ ^
+src/RadialParameterisation.cc: At global scope:
+src/RadialParameterisation.cc:43:64: warning: unused parameter ‘copyNo’ [-Wunused-parameter]
+ void RadialParameterisation::ComputeTransformation(const G4int copyNo, G4VPhysicalVolume* physical) const
+                                                                ^
+Compiling FlexiSource.cc ...
+Compiling SourceMaterial.cc ...
+Compiling SphericalParameterisation.cc ...
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:143:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Hype&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Hype &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:139:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polyhedra&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polyhedra &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:135:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Polycone&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Polycone &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:131:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Para&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Para &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:127:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Torus&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Torus &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:123:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Ellipsoid&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Ellipsoid &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:119:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Orb&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Orb &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:111:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Cons&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Cons &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:107:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trap&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trap &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:103:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Trd&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Trd &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:99:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Tubs&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Tubs &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+In file included from include/SphericalParameterisation.hh:1:0,
+                 from src/SphericalParameterisation.cc:1:
+/home/joseph/Applications/geant4.10.02.p02-install/include/Geant4/G4VPVParameterisation.hh:95:18: warning: ‘virtual void G4VPVParameterisation::ComputeDimensions(G4Box&, G4int, const G4VPhysicalVolume*) const’ was hidden [-Woverloaded-virtual]
+     virtual void ComputeDimensions(G4Box &,
+                  ^
+In file included from src/SphericalParameterisation.cc:1:0:
+include/SphericalParameterisation.hh:22:16: warning:   by ‘virtual void SphericalParameterisation::ComputeDimensions(G4Sphere&, G4int, const G4VPhysicalVolume*) const’ [-Woverloaded-virtual]
+   virtual void ComputeDimensions(G4Sphere& sphere, 
+                ^
+Compiling TrackLengthEstimator.cc ...
+Compiling GuidantGallileo.cc ...
+src/GuidantGallileo.cc: In member function ‘virtual void GuidantGallileo::CreateSource(G4VPhysicalVolume*)’:
+src/GuidantGallileo.cc:89:15: warning: unused variable ‘O’ [-Wunused-variable]
+   G4Element*  O  = man->FindOrBuildElement("O");
+               ^
+src/GuidantGallileo.cc:90:15: warning: unused variable ‘Al’ [-Wunused-variable]
+   G4Element*  Al  = man->FindOrBuildElement("Al");
+               ^
+Compiling PhysicsList.cc ...
+Compiling DetectorMessenger.cc ...
+Creating shared library /home/joseph/geant4_workdir/tmp/Linux-g++/TG60/libTG60.so ...
+Compiling TG60.cc ...
+TG60.cc: In function ‘int main(int, char**)’:
+TG60.cc:51:11: warning: unused variable ‘radiusincrements’ [-Wunused-variable]
+     G4int radiusincrements = 36;
+           ^
+TG60.cc:52:11: warning: unused variable ‘zaxisincrements’ [-Wunused-variable]
+     G4int zaxisincrements = 60;
+           ^
+Using global libraries ...
+Linking TG60
+... Done!

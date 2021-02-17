@@ -1,0 +1,383 @@
+/source/switch NovosteBetaCath40mmguidewire
+/source/phantom Water
+
+/run/initialize
+/control/verbose 1
+/run/verbose 1
+/tracking/verbose 0
+
+
+#Visualisation starts
+#/vis/open HepRepFile
+#/vis/open OGL
+
+
+#Auxillaryedge shows the edge as the simulator sees it, which is not ideal (composed of triangles)
+
+/vis/viewer/set/auxiliaryEdge false
+/vis/viewer/set/autoRefresh false
+/vis/drawVolume
+/vis/scene/create
+/vis/sceneHandler/attach
+/vis/scene/add/volume world
+
+/vis/scene/add/trajectories rich
+/vis/viewer/flush
+
+#Particle Filter
+ #Implemented this so that we don't see neutrinos
+ /vis/filtering/trajectories/create/particleFilter 
+ /vis/filtering/trajectories/particleFilter-0/add e-
+ /vis/filtering/trajectories/particleFilter-0/add gamma
+ #/vis/filtering/trajectories/particleFilter-0/invert true
+
+#Initial Volume Filter
+ #/vis/filtering/trajectories/create/originVolumeFilter
+ #/vis/filtering/trajectories/originVolumeFilter-0/add CapsuleCylinder_phys
+ #/vis/filtering/trajectories/originVolumeFilter-0/add CapsuleCylinder_physend1
+ #/vis/filtering/trajectories/originVolumeFilter-0/add CapsuleCylinder_physend2
+
+#Draw by Charge
+ /vis/modeling/trajectories/create/drawByCharge
+ /vis/modeling/trajectories/drawByCharge-0/set 1 blue
+ /vis/modeling/trajectories/drawByCharge-0/set -1 red
+ /vis/modeling/trajectories/drawByCharge-0/setRGBA 0 0 1 0 0
+ /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 4
+
+
+/vis/scene/endOfEventAction accumulate
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
+# Visualisation ends
+
+#32 Sources (16 Sr-90, 16 Y-90) for 16 seed long source train
+#This is valid because Sr and Y-90 are in equilibrium, meaning they have equal activities.
+
+/gps/source/intensity 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 1.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 1.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -1.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -1.25 mm
+
+#Second 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 3.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 3.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -3.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -3.75 mm
+
+#Third 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 6.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 6.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -6.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -6.25 mm
+
+#Fourth 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 8.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 8.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -8.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -8.75 mm
+
+#Fifth 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 11.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 11.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -11.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -11.25 mm
+
+#Sixth 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 13.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 13.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -13.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -13.75 mm
+
+#Seventh 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 16.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 16.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -16.25 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -16.25 mm
+
+#Eight 4
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 18.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 18.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 38 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -18.75 mm
+
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 39 90 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.16 mm
+/gps/pos/halfz 1.22 mm
+/gps/energy 0 keV
+/gps/pos/centre 0 0.05 -18.75 mm
+
+/run/beamOn 100
